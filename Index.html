@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Technology of the Future</title>
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="./css/all.css">
+
+
+
+    <!-- --------- Owl-Carousel ------------------->
+    <link rel="stylesheet" href="./css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./css/owl.theme.default.min.css">
+	
+
+    <!-- ------------ AOS Library ------------------------- -->
+    <link rel="stylesheet" href="./css/aos.css">
+
+    <!-- Custom Style   -->
+    <link rel="stylesheet" href="./css/Style.css">
+</head>
+<style>
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+.accordion:hover {
+  background-color: #ccc; 
+}
+
+.panel {
+  padding: 0 18px;
+  display: none;
+  background-color: white;
+  overflow: hidden;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 40%;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+  padding: 2px 16px;
+}
+</style>
+
+<body>
+
+    <!-- ----------------------------  Navigation ---------------------------------------------- -->
+
+    <nav class="nav">
+        <div class="nav-menu flex-row">
+            <div class="nav-brand">
+                <img src="assets/logo.png" height="75px">
+            </div>
+            <div class="toggle-collapse">
+                <div class="toggle-icons">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+            <div>
+                <ul class="nav-items text-gray">
+                    <li class="nav-link">
+                        <a href="./index.html">Home</a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="https://www.facebook.com/CITUniversity/"><i class="fab fa-facebook-f"></i></a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="https://www.instagram.com/cit.university/"><i class="fab fa-instagram"></i></a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="https://www.youtube.com/user/CITdotedu/"><i class="fab fa-youtube"></i></a>
+                    </li>
+                </ul>
+            </div>
+            
+        </div>
+    </nav>
+
+    <!-- ------------x---------------  Navigation --------------------------x------------------- -->
+
+    <!----------------------------- Main Site Section ------------------------------>
+
+    <main>
+
+        <!------------------------ Site Title ---------------------->
+
+        <section class="site-title">
+            <div class="site-background" data-aos="fade-up" data-aos-delay="100">
+                <h3>All Hail, Maroon and Gold!</h3>
+                <h1>Technology of the Future</h1>
+                <button class="btn"><a href="#startme">Explore</a></button>
+            </div>
+        </section>
+
+        <!------------x----------- Site Title ----------x----------->
+
+        <!-- --------------------- Blog Carousel ----------------- -->
+
+        <section id="startme">
+            <div class="blog">
+                <div class="container">
+                    <div class="owl-carousel owl-theme blog-post">
+                        <div class="blog-content" data-aos="fade-right" data-aos-delay="200">
+                            <img src="./assets/Blog-post/post-1.jpg" alt="post-1">
+                            <div class="blog-title">
+                                <h3>Robotic Avatar</h3>
+                            </div>
+                        </div>
+                        <div class="blog-content" data-aos="fade-in" data-aos-delay="200">
+                            <img src="./assets/Blog-post/post-3.jpg" alt="post-1">
+                            <div class="blog-title">
+                                <h3>Delivery Robots</h3>
+                            </div>
+                        </div>
+                        <div class="blog-content" data-aos="fade-left" data-aos-delay="200">
+                            <img src="./assets/Blog-post/post-2.jpg" alt="post-1">
+                            <div class="blog-title">
+                                <h3>Robonauts</h3>
+                            </div>
+                        </div>
+                        <div class="blog-content" data-aos="fade-right" data-aos-delay="200">
+                            <img src="./assets/Blog-post/post-5.png" alt="post-1">
+                            <div class="blog-title">
+                                <h3>Educational Robots</h3>
+                            </div>
+                        </div>
+						<div class="blog-content" data-aos="fade-right" data-aos-delay="200">
+                            <img src="./assets/Blog-post/post-4.png" alt="post-1">
+                            <div class="blog-title">
+                                <h3>Collab Robots</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="owl-navigation">
+                        <span class="owl-nav-prev"><i class="fas fa-long-arrow-alt-left"></i></span>
+                        <span class="owl-nav-next"><i class="fas fa-long-arrow-alt-right"></i></span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ----------x---------- Blog Carousel --------x-------- -->
+
+        <!-- ---------------------- Site Content -------------------------->
+
+        <section class="container">
+            <div class="site-content">
+                <div class="posts">
+                    <div class="post-content" data-aos="zoom-in" data-aos-delay="200">
+                        <div class="post-image">
+                            <div>
+                                <img src="./assets/Blog-post/blog1.jpg" class="img" alt="blog1">
+                            </div>
+                            <div class="post-info flex-row">
+                                <span><i class="fas fa-user text-gray"></i>&nbsp;&nbsp;Kristine</span>
+                                <span><i class="fas fa-calendar-alt text-gray"></i>&nbsp;&nbsp;September 26, 2020</span>
+                                <span>7 Comments</span>
+                            </div>
+                        </div>
+                        <div class="post-title">
+                            <a>Robotic Avatar</a>
+                            <p>Initially introduced by Toyota in 2017, the T-HR3 is a humanoid robot that mimics the movements of its human operator, like a real-world avatar. Updated for Tokyo Olympics, the T-HR3 has improved controls and can walk more naturally. Envisioned as a mobility service, in the future these humanoids will be able to perform surgeries while their operators, human doctors, will be controlling them from another part of the world. It can also help caregivers to do their work remotely, or those in need of assistance to live a more independent life.
+                            </p>
+                            <button class="btn post-btn accordion">Read More &nbsp; <i class="fas fa-arrow-right"></i></button>
+							<div class="panel">
+							  <p>“It is often said that a human shape is useful because the robot can use the same tools and environment as a human, but one more big reason is that humans find it to be easiest to control robots in humanoid form,” explained T-HR3 development team leader Tomohisa Moridaira.</p>
+							  <img src="./assets/Blog-post/image003.jpg" width="425px" height="332px"/><img src="./assets/Blog-post/image005.jpg" width="425px" height="332px"/><br><br><p><b>Advantages<p></b>
+							  <blockquote><p>• This robot can perform surgeries and or assist in the hospital. Due to COVID-19, a lot of front liners died due to the constant exposure to the virus. This Robot can be a great alternative to avoid numerous loss of life.</blockquote>
+							  
+							  <p></b><blockquote><p>• This robot could change the way people interact and work. For example, this can be used by people who are diagnosed at the hospital, unable to travel. Takanobu Nagaoka, a 55-year-old teacher at the school who was diagnosed with ALS two years ago. Unable to travel due to deteriorating motor skills, he “attended” the event as OriHime, a simple tabletop droid with a camera, microphone and speaker.</blockquote>						  				  
+							  <p></b><blockquote><p>• Students who refuses to go to school</blockquote>					  
+							  <p></b><blockquote><p>• Mothers who cannot go to work because they are taking care of their kids or there is an emergency, can use this robot to attend to school or attend their work.</blockquote>
+							  
+							</div>
+								
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="post-content" data-aos="zoom-in" data-aos-delay="200">
+                        <div class="post-image">
+                            <div>
+                                <img src="./assets/Blog-post/blog2.jpg" class="img" alt="blog1">
+                            </div>
+                            <div class="post-info flex-row">
+                                <span><i class="fas fa-user text-gray"></i>&nbsp;&nbsp;Kristine</span>
+                                <span><i class="fas fa-calendar-alt text-gray"></i>&nbsp;&nbsp;September 26, 2020</span>
+                                <span>10 Comments</span>
+                            </div>
+                        </div>
+                        <div class="post-title">
+                            <a>Delivery Robots</a>
+                            <p>In January, it was announced that Ford became the first customer to incorporate Agility Robotics’ Digit into a factory setting. The headless humanoid has nimble limbs and is packed with sensors. It can navigate the stairs, various obstacles, and all kinds of terrains. It can balance on one foot, but usually it walks upright and is strong enough to pick up and stack boxes weighting up to 40 pounds. It can also fold itself for compact storage. Ford envisions that Digit will ride in a driverless car and deliver packages to customers, automating the whole delivery process. For now, the company will be testing how humans react when meeting this android.   
+                            </p>
+                            <button class="btn post-btn accordion">Read More &nbsp; <i class="fas fa-arrow-right"></i></button>
+							<div class="panel">
+							  <br><p><b>Advantages<p></b>
+							  <blockquote><p>• Safety - the most obvious advantage of utilizing robotics. Heavy machinery, machinery that runs at hot temperature, and sharp objects can easily injure a human being. By delegating dangerous tasks to a robot, you’re more likely to look at a repair bill than a serious medical bill or a lawsuit. Employees who work dangerous jobs will be thankful that robots can remove some of the risks.</blockquote>
+							  <img src="./assets/Blog-post/image007.jpg" width="100%" height="100%"/>
+							  
+							  <p></b><blockquote><p>• Speed - Robots don’t get distracted or need to take breaks. They don’t request vacation time or ask to leave an hour early. A robot will never feel stressed out and start running slower. They also don’t need to be invited to employee meetings or training session. Robots can work all the time, and these speeds up production. They keep your employees from having to overwork themselves to meet high pressure deadlines or seemingly impossible standards.</blockquote>						  				  
+							  <p></b><blockquote><p>•	Consistency - Robots never need to divide their attention between a multitude of things. Their work is never contingent on the work of other people. They won’t have unexpected emergencies, and they won’t need to be relocated to complete a different time sensitive task. They are always there, and they’re doing what they’re supposed to do. Automation is typically far more reliable than human labor.</blockquote>					  
+							  <p></b><blockquote><p>• Perfection - Robots will always deliver quality. Since they’re programmed for precise, repetitive motion, they’re less likely to make mistakes. In some ways, robots are simultaneously an employee and a quality control system. A lack of quirks and preferences, combined with the eliminated possibility of human error, will create a predictably perfect product every time.</blockquote>
+							  <img src="./assets/Blog-post/image011.jpg" width="100%" height="100%"/>
+							  <p></b><blockquote><p>•	Happier Employees – Since robots are often assigned to perform tasks that people don’t particularly enjoy, like menial work, repetitive motion, or dangerous jobs, your employees are more likely to be happy. They will be focusing on more engaging work that’s less likely to grind down their nerves. They might want to take advantage of additional educational opportunities, utilize your employee wellness program, or participate in an innovative workplace project. They’ll be happy to let the robots do the work that leaves them feeling burned out.</blockquote>
+							  <p></b><blockquote><p>•	Job Creation – Robots don’t take jobs away. They merely change the jobs that exist. Robots need people for monitoring and supervision. The more robots we need, the more people we’ll need to build those robots. By training your employees to work with robots, you’re giving them a reason to stay motivated in their position with your company. They’ll be there for the advancements and they’ll have the unique opportunity to develop a new set of techs or engineering related skills.</blockquote>
+							  <img src="./assets/Blog-post/image012.jpg" width="100%" height="100%"/>
+							  <p></b><blockquote><p>•	Productivity - Robots can’t do everything. Some jobs absolutely need to be completed by a human. If your human employees aren’t caught up doing the things that could have easily be left for robots, they’ll be available and productive. They can talk to customers, answer emails and social media comments, help with branding and marketing, and sell products. You’ll be amazed at how much they can accomplish when the grunt work isn’t weighing them down.</blockquote>
+							  <p></b><blockquote><p>•	Healthy Environment – These delivery robots can save more thousands and even millions of CO2 tonnes. It can be an environmentally friendly solution to pollution.</blockquote>
+							  
+							</div>
+								
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="post-content" data-aos="zoom-in" data-aos-delay="200">
+                        <div class="post-image">
+                            <div>
+                                <img src="./assets/Blog-post/blog3.jpg" class="img" alt="blog1">
+                            </div>
+                            <div class="post-info flex-row">
+                                <span><i class="fas fa-user text-gray"></i>&nbsp;&nbsp;Ronnel</span>
+                                <span><i class="fas fa-calendar-alt text-gray"></i>&nbsp;&nbsp;September 26, 2020</span>
+                                <span>15 Comments</span>
+                            </div>
+                        </div>
+                        <div class="post-title">
+                            <a>Robonauts</a>
+                            <p>Several countries have been working on humanoids for space exploration. In India, Vyommitra, a female humanoid robot, is set to launch on an unscrewed spaceflight in December 2020. The robot is scheduled to conduct microgravity experiments to help prepare for future crewed missions.
+                            </p>
+                            <button class="btn post-btn accordion">Read More &nbsp; <i class="fas fa-arrow-right"></i></button>
+							<div class="panel">
+							<p>Fedor, or Final Experimental Demonstration Object Research, was a Russian remote-controlled humanoid that flew to the International Space Station (ISS) in 2019, where it simulated repairs during a spacewalk, and later returned to Earth. NASA’s Johnson Space Center has worked on several humanoids, including Robonaut 2 (that spent seven years aboard the ISS) and Valkyrie. It’s possible that future spacefaring humanoids will be designed to withstand harsh environments of the Moon or the Mars.</p>
+							<img src="./assets/Blog-post/image016.jpg" width="100%" height="100%"/>
+							  <p><b>Advantages<p></b>
+							  <blockquote><p>•	One advantage of a humanoid design is that Robonaut can take over simple, repetitive, or especially dangerous tasks on places such as the International Space Station.</blockquote>
+							  <p></b><blockquote><p>•	Tasks such as changing out an air filter can be performed without modifications to the existing design.</blockquote>						  				  
+							  <p></b><blockquote><p>•	This improve efficiency in the types of tools</blockquote>					  
+							  <p></b><blockquote><p>•	This also removes the need for specialized robotic connectors. Future missions could then supply a new set of tools and use the existing tools already on location.</blockquote>
+							  <p>I am positive and optimistic about these robots and everything. I truly believe that we are trying to make technology that makes our lives better and improves our situations as humans on this planet. If more of us believe that, then maybe that is the way it will turn out.</p>
+							  
+							</div>
+								
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="pagination flex-row">
+                        <a href="./index.html"><i class="fas fa-chevron-left"></i></a>
+                        <a href="./index.html" class="pages">1</a>
+                        <a href="./page2.html" class="pages">2</a>
+                        <a href="./page2.html"><i class="fas fa-chevron-right"></i></a>
+                    </div>
+                </div>
+                <aside class="sidebar">
+                    <div class="category">
+                        
+                        <ul class="category-list">
+                            <li class="list-items" data-aos="fade-left" data-aos-delay="100">
+                                <a href="#">Software</a>
+                                
+                            </li>
+                            <li class="list-items" data-aos="fade-left" data-aos-delay="200">
+                                <a href="#">Technology</a>
+                               
+                            </li>
+                            <li class="list-items" data-aos="fade-left" data-aos-delay="300">
+                                <a href="#">Lifestyle</a>
+                                
+                            </li>
+                            <li class="list-items" data-aos="fade-left" data-aos-delay="400">
+                                <a href="#">Devices</a>
+                                
+                            </li>
+                            <li class="list-items" data-aos="fade-left" data-aos-delay="500">
+                                <a href="#">Robots</a>
+                                
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="popular-post">
+                        <h2>Popular Post</h2>
+                        <div class="post-content" data-aos="flip-up" data-aos-delay="200">
+                            <div class="post-image">
+                                <div>
+                                    <img src="./assets/popular-post/m-blog-1.png" class="img" alt="blog1">
+                                </div>
+                                <div class="post-info flex-row">
+                                    <span><i class="fas fa-calendar-alt text-gray"></i>&nbsp;&nbsp;September 26,
+                                        2020</span>
+                                    <span>5 Comments</span>
+                                </div>
+                            </div>
+                            <div class="post-title">
+                                <a>Let’s collab with one another!</a>
+                            </div>
+                        </div>
+                        <div class="post-content" data-aos="flip-up" data-aos-delay="200">
+                            <div class="post-image">
+                                <div>
+                                    <img src="./assets/popular-post/m-blog-2.jpg" class="img" alt="blog1">
+                                </div>
+                                <div class="post-info flex-row">
+                                    <span><i class="fas fa-calendar-alt text-gray"></i>&nbsp;&nbsp;September 26,
+                                        2020</span>
+                                    <span>9 Comments</span>
+                                </div>
+                            </div>
+                            <div class="post-title">
+                                <a>Educational Robots are making their way, in a good way!</a>
+                            </div>
+                        </div>        
+                    </div>
+                    <div class="newsletter" data-aos="fade-up" data-aos-delay="300">
+                        <h2>Newsletter</h2>
+                        <div class="form-element">
+                            <input type="text" class="input-element" placeholder="Email">
+                            <button class="btn form-btn">Subscribe</button>
+                        </div>
+                    </div>
+                    <div class="popular-tags">
+                        <h2>Popular Tags</h2>
+                        <div class="tags flex-row">
+                            <span class="tag" data-aos="flip-up" data-aos-delay="100">Software</span>
+                            <span class="tag" data-aos="flip-up" data-aos-delay="200">Technology</span>
+                            <span class="tag" data-aos="flip-up" data-aos-delay="300">Robots</span>
+                            <span class="tag" data-aos="flip-up" data-aos-delay="600">Lifestyle</span>
+                            <span class="tag" data-aos="flip-up" data-aos-delay="700">Devices</span>
+                        </div>
+                    </div>
+                </aside>
+            </div>
+        </section>
+
+        <!-- -----------x---------- Site Content -------------x------------>
+
+    </main>
+
+    <!---------------x------------- Main Site Section ---------------x-------------->
+
+
+    <!-- --------------------------- Footer ---------------------------------------- -->
+
+    <footer class="footer">
+        <div class="container">
+            <div class="about-us" data-aos="fade-right" data-aos-delay="200">
+                <h2>About us</h2>
+                <p>We are a team of three currently studying at Cebu Institute of Technology. This project is brought to you by: IT031 Living in the IT Era.</p>
+            </div>
+            <div class="newsletter" data-aos="fade-right" data-aos-delay="200">
+                <h2>Newsletter</h2>
+                <p>Stay update with our latest</p>
+                <div class="form-element">
+                    <input type="text" placeholder="Email"><span><i class="fas fa-chevron-right"></i></span>
+                </div>
+            </div>
+            <div class="instagram" data-aos="fade-left" data-aos-delay="200">
+                <h2>Cebu Institute of Technology</h2>
+                <div class="flex-row">
+                    <img src="./assets/instagram/thumb-card3.png" alt="insta1">
+                    <img src="./assets/instagram/thumb-card4.png" alt="insta2">
+                </div>
+                <div class="flex-row">
+                    <img src="./assets/instagram/thumb-card6.jpg" alt="insta4">
+                    <img src="./assets/instagram/thumb-card7.jpg" alt="insta5">
+                    <img src="./assets/instagram/thumb-card8.jpg" alt="insta6">
+                </div>
+            </div>
+            <div class="follow" data-aos="fade-left" data-aos-delay="200">
+                <h2>Follow us</h2>
+                <p>Let us be Social</p>
+                <div>
+                    <a href="https://www.facebook.com/CITUniversity/"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com/cit.university/"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.youtube.com/user/CITdotedu/"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="rights flex-row">
+            <h4 class="text-gray">
+                Copyright © 2020 All Rights Reserved | made by
+                <a>Ronnel, Jerech & Kristine</a>
+            </h4>
+        </div>
+        <div class="move-up">
+            <span><i class="fas fa-arrow-circle-up fa-2x"></i></span>
+        </div>
+    </footer>
+	
+
+    <!-- -------------x------------- Footer --------------------x------------------- -->
+
+    <!-- Jquery Library file -->
+    <script src="./js/Jquery3.4.1.min.js"></script>
+
+    <!-- --------- Owl-Carousel js ------------------->
+    <script src="./js/owl.carousel.min.js"></script>
+
+    <!-- ------------ AOS js Library  ------------------------- -->
+    <script src="./js/aos.js"></script>
+
+    <!-- Custom Javascript file -->
+    <script src="./js/main.js"></script>
+	<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+</script>
+
+</body>
+
+</html>
